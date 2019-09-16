@@ -1,0 +1,34 @@
+class Obst {
+String bezeichnung;
+int einkaufspreis; // in EUR
+int verkaufspreis; // in EUR
+int naehrwert; // in kcal
+Obst(String dieBezeichnung, int derEinkaufspreis, int derNaehrwert) {
+bezeichnung = dieBezeichnung;
+einkaufspreis = derEinkaufspreis;
+verkaufspreis = einkaufspreis + einkaufspreis;
+naehrwert = derNaehrwert;
+}
+void aufpeppen() {
+verkaufspreis = verkaufspreis + verkaufspreis;
+naehrwert = naehrwert + 50;
+}
+}
+
+
+public class Obst{
+private String bezeichnung;
+private int einkaufspreis;
+private int verkaufspreis;
+private int naehrwert;
+
+public Obst(String dieBezeichnung, int derEinkaufspreis, int derNaehrwert){
+setBezeichnung(dieBezeichnung);
+setEinkaufspreis(derEinkaufspreis);
+setNaehrwert(derNaehrwert);
+}
+public void aufpeppen(int neuerNaehrwert, int neuerVerkaufspreis){
+setVerkaufspreis(getVerkaufspreis() + neuerVerkaufspreis);
+setNaehrwert(getNaehrwert() + neuerNaehrwert);
+}
+}

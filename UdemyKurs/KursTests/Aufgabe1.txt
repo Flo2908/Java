@@ -1,0 +1,16 @@
+class Kunde { 
+ 
+    String vorname, nachname; 
+    int kundenNummer;          
+	
+	void nummerAendern(neueNummer){  -> DatentypFehlt
+	kundenNummer = neueNummer;     
+	} 
+ 
+    Konstruktor(String derVorname & String derNachname & int dieKundenNummer) 	{ -> Konstruktor in Kunde umwandeln
+							--> Parameter müssen mit Komma getrennt werden
+	vorname = derVorname;  
+	nachname = derNachname;  
+	kundenNummer = dieKundenNummer;     
+	}
+	} 

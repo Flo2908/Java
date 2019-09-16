@@ -1,0 +1,17 @@
+Sieh dir mal folgendes Programm an: 
+    public static void main(String[] args) { 
+	int i = 10;   
+	int j = 3;   
+	int erg1 = i / j;   
+	double erg2 = i / j;   
+	double erg3 = (double) i / j;   
+	System.out.println("erg1 = " + erg1);   
+	System.out.println("erg2 = " + erg2);   
+	System.out.println("erg3 = " + erg3);         
+	} 
+ 
+Was meinst du wird das Programm bei der Ausführung für erg1 - erg3 ausgeben? 
+ erg1 = 3
+ erg2 = 3.3
+ erg3 = 3.3
+ 

@@ -1,0 +1,20 @@
+Aufgabe 1: 
+Welche Bedeutung haben Packages in Java, und worauf muss man bei ihrer Verwendung achten? 
+ 
+Aufgabe 2: 
+Gegeben sind die folgenden Zeilen Code: 
+
+1 int a = 5; 
+2 double b = (double)a; 
+ 3 float c = b;
+ 4 long d = a;
+ 5 byte e = (short) 10; --- nein
+ 6 long f = 2999999999999;
+ 7 double g = c; 	--- nein
+ 8 byte h = e + e; 	--- nein
+ 
+a) Welche dieser sind Anweisungen gültig, welche nicht? 
+Wo findet implizites Casting statt? Im Falle der expliziten Castings sollte zudem entschieden werden, 
+inwiefern sie überhaupt nötig sind.  
+ 
+b) Worauf muss man bei explizitem Casting achten? 

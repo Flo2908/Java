@@ -1,0 +1,20 @@
+Aufgabe 3: 
+Gegeben sei folgendes (unglaublich unsymphatisches) Programm: 
+public class OhMyGod { 
+ 
+ public static void main(String[] args) { 
+ 
+  int a = 1;   int b = a + ++a;   int c = b++ - a + a--; 
+ 
+  /* BRAIN COOL-DOWN HERE */  
+ 
+  System.out.println(c++ + a++);   System.out.println(--b - (-++c));   System.out.println(a - c);  } } 
+ 
+Frage - Du ahnst es schon: Was gibt das Programm aus? 
+Wichtig: Du sollst versuchen, möglichst viel im Kopf zu berechnen. Nach den ersten drei Zeilen darfst du dir die Werte, die du dir bis dahin für a,b und c im Kopf ausgerechnet hast, auf einen Zettel schreiben. Aber nicht davor! Die letzten drei Zeilen sollst du dann ausgehend von den notierten Zwischenwerten wieder im Kopf berechnen, ohne weitere Zwischennotizen. 
+Anmerkung: Auch wenn diese Aufgabe wie pure Schikane erscheint und absolut künstlich konstruiert ist: Du trainierst damit deine Konzentrationsfähigkeit. Konzentration beim Programmieren ist unglaublich wichtig – du sollst merken, wie schnell sich ein Fehler einschleichen kann, wenn man nicht voll bei der Sache ist! Außerdem trainiert so etwas deine Debugging Skills. Das bedeutet, du kannst Fehler im Code (und die wird es immer wieder geben) schneller auffinden und beseitigen, wenn du es gewohnt bist viele Daten gleichzeitig im Kopf zu halten. Sieh es als Herausforderung! Rechne zwei oder drei mal nach, bevor du dich für eine entgültige Lösung entschließt. Wenn du die Aufgabe unter den gestellten Bedingungen lösen kannst, hast du wirklich eine großartige Leistung vollbracht!  
+Viel Spaß Erfolg ;) 
+
+ausgabe1   = 4
+ausgabe2	= 0
+ausgabe3 	= -2

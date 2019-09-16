@@ -1,0 +1,27 @@
+ÜBUNGS-BLOCK 2
+AUFGABEN
+Aufgabe N-1:
+Die sogenannte main-Methode wird für jedes Java-Programm benötigt - denn ihre Implementierung,
+d.h. ihre Logik, ist das Programm. Natürlich muss damit jeder Java-Programmierer diese Methode
+kennen. In dieser Aufgabe sollst du die Definition der main-Methode nun üben, bis du sie aus dem
+Kopf korrekt niederschreiben kannst. Da sie recht komplex ist, gebe ich dir als Hilfestellung alle
+Bestandteile der main-Methode. Versuche, diese Teile nun in die korrekte Anordnung zu bringen:
+
+
+main
+static
+ (
+String
+{
+ void
+String
+[
+ public
+args
+]
+ )
+}
+
+---So muss das aussehen ---
+public static void main(String[] args){
+}

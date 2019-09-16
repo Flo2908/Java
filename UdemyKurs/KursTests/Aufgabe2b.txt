@@ -1,0 +1,16 @@
+public class Auto {
+ public static void main(String[] args) {
+Auto volkswagen = new Auto(85, "Volkswagen");
+ }
+ private int leistung;
+ private String hersteller;
+ Auto(int dieLeistung, String derHersteller) {
+leistung = dieLeistung;
+hersteller = derHersteller;
+Auto bmw = new Auto(100, "BMW");
+Auto mercedes = new Auto(150, "Mercedes");
+ }
+}
+Wie viele Auto-Objekte werden in diesem Programm erzeugt? Was sind jeweils die Werte für
+Leistung und Hersteller all dieser Auto-Objekte?
+	3
